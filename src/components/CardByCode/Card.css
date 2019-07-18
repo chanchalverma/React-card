@@ -1,0 +1,33 @@
+.card-container {
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+.card {
+  /* flex-basis: 250px; */
+  width: 15rem;
+  height: 20rem;
+  padding: 0.2rem;
+  margin: 3rem;
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: rgb(1, 1, 51);
+  border-radius: 0.5rem;
+  color: white;
+}
+.image {
+  height: 7rem;
+  /* width: rem; */
+  /* border: 1px solid gray; */
+  text-align: center;
+}
+
+.content-section {
+  text-align: center;
+}
+.body {
+  background-color: darkkhaki;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.header-container {
+  box-shadow: 1px 2px 1px 2px darkgrey;
+  height: 3rem;
+  margin: 1px;
+  justify-content: center;
+  color: white;
+  background-color: rgb(2, 2, 68);
+  /* text-align: center; */
+}
+
+.header-container a {
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+}
