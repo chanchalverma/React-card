@@ -3,3 +3,9 @@ h1 {
   color: rgb(2, 2, 51);
   font-family: fantasy;
 }
+.newButton {
+  background-color: rgb(2, 2, 51);
+  color: white;
+  padding: 7px;
+  margin: 5px;
+}

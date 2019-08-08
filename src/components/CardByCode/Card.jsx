@@ -1,8 +1,9 @@
 import React from "react";
 import "./Card.css";
 
+import Model from "./Model";
+
 function Card(props) {
-  console.log(props);
   return (
     <div className="card-container">
       <div className="card">
@@ -19,6 +20,18 @@ function Card(props) {
           <p className="glyphicon glyphicon-envelope">{props.email}</p>
           <p>{props.contact}</p>
         </div>
+        <button
+          className="button"
+          onClick={() => props.onCardDelete(props.id)} //id value send to parent component's(CardList) function i.e CardList
+        >
+          Delete
+        </button>
+        <button
+          className="button"
+          onClick={() => props.onCardEdit(props.id, props.name, props.email)}
+        >
+          Edit
+        </button>
       </div>
     </div>
   );
